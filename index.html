@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Web Egg</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://lxp.egg.live/static/media/egg_no_shadow.a86c2e8509c468f2074a231b46ea8f65.svg"
+      type="image/x-icon"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/7a41db487a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="container-navbar">
+        <nav class="navbar">
+          <a href="#"><i class="fa-solid fa-puzzle-piece"></i></a>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul>
+            <li class="link"><a href="#">Inicio</a></li>
+            <li class="link"><a href="#">Acerca de mí</a></li>
+            <li class="link"><a href="#">Trabajos</a></li>
+            <li class="link"><a href="#">Servicios</a></li>
+            <li class="link"><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="seccion-principal">
+        <section class="seccion-1">
+          <div class="acerca-imagen">
+            <img src="./image/Asian person.jpg" alt="Imagen personal" />
+          </div>
+          <div class="acerca-de">
+            <h2 class="title-acerca-de">ACERCA DE MÍ</h2>
+            <p class="parrafo1">
+              ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.
+            </p>
+            <p class="parrafo2">
+              Me llamo Tere, nací en Buenos Aires y vivo en Caballito. Me gusta
+              el helado y salir a pasear en días de sol. Me encantaría aprender
+              a programar para poder ayudar a las personas a mostrar lo que
+              hacen.
+            </p>
+          </div>
+        </section>
+        <section class="seccion-2">
+          <img src="./image/Asia city.jpg" alt="campo" />
+        </section>
+      </main>
+      <section class="section-jobs">
+        <h2>Trabajos</h2>
+        <div class="container-cards">
+          <div class="card card1">
+            <img src="./image/Asian person.jpg" alt="" />
+            <h2>Hola mundo!</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestias ad sapiente corporis praesentium ab, quas laborum sit
+              similique.
+            </p>
+            <a href="#">Leer mas..</a>
+          </div>
+          <div class="card card2">
+            <img src="./image/Asian person.jpg" alt="" />
+            <h2>Hola mundo!</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestias ad sapiente corporis praesentium ab, quas laborum sit
+              similique.
+            </p>
+            <a href="#">Leer mas..</a>
+          </div>
+          <div class="card card3">
+            <img src="./image/Asian person.jpg" alt="" />
+            <h2>Hola mundo!</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestias ad sapiente corporis praesentium ab, quas laborum sit
+              similique.
+            </p>
+            <a href="#">Leer mas..</a>
+          </div>
+        </div>
+      </section>
+      <section class="form-header">
+        <h1>Contacto</h1>
+        <p><em>¡Esperamos tu consulta!</em></p>
+  
+        <form action="" method="get" class="formulario">
+          <div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" required/>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="pepe@gmail.com"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+          </div>
+          <div class="form-row">
+            <button type="submit" id="submit">Enviar</button>
+          </div>
+          <div class="form-row">
+            <p id="alertas"></p>
+          </div>
+        </form>
+      </section>
+      <footer>
+        <div class="container-logo">
+          <a href="#" class="logo">
+            <input type="checkbox" id="checkbox-modedark">
+            <label for="checkbox-modedark">
+              <i class="fa-solid fa-puzzle-piece"></i>
+            </label>
+          </a>
+        </div>
+        <h3>Redes Sociales</h3>
+        <div class="container-networks">
+          <ul>
+            <li><a href="#" class="network">
+              <i class="fa-brands fa-facebook"></i>
+              <p>Facebook</p>
+            </a></li>
+            <li><a href="#" class="network">
+              <i class="fa-brands fa-instagram"></i>
+              <p>Instagram</p>
+            </a></li>
+            <li><a href="#" class="network">
+              <i class="fa-brands fa-tiktok"></i>
+              <p>TikTok</p>
+            </a></li>
+            <li><a href="#" class="network">
+              <i class="fa-brands fa-whatsapp"></i>
+              <p>WhatsApp</p>
+            </a>
+          </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
